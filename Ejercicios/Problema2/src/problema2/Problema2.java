@@ -35,7 +35,8 @@ public class Problema2 {
         m = (x+(y/z))/(x-(y/z));
         // Presentación de resultados
         System.out.printf("El valor de m, en base a las variables:\n"
-                + "x = %.2f\n\t y = %.2f\n\t\t z = %.2f\n da como resultado:\n\t\t"
-                + "m = %.2f", x,y,z,m);    
+                + "x = %.2f\n\t y = %.2f\n\t\t z = %.2f\n"
+                + "da como resultado:\n\t\t"
+                + "m = %.2f\n", x,y,z,m);    
     } 
 }
